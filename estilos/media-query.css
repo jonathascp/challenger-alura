@@ -1,0 +1,246 @@
+@media (min-width: 768px) {
+
+    .titulo_contato {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .titulo_contato h2 {
+        font-size: 1.7em;
+    }
+
+    .titulo_contato p {
+        font-size: 1.3em;
+    }
+
+    .container_menu {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .descricao h1 {
+        width: 500px;
+        font-size: 1.7em;
+    }
+
+    .descricao p {
+        font-size: 1.3em;
+    }
+
+    img {
+        width: 180px;
+    }
+
+    nav ul li a {
+        font-size: 1.2em;
+    }
+
+    #sobreMim ,#skills , #hobbies , #experiencia, #formacao, #contato {
+        padding: 10px;
+        margin : 15px;
+    }
+
+    #sobreMim > h2 ,#skills > h2  , #hobbies > h2  , #experiencia > h2 , #formacao > h2 , #contato > h2  {
+        font-size: 2.2em;
+        text-align: center;
+    }
+
+    #sobreMim > p {
+        font-size: 1.2em;
+    }
+
+    #hobbies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #hobbies > .icones {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .icones {
+        margin: 10px;
+    }
+
+    .icones i {
+        font-size: 4.4em;
+    }
+
+    #formacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #formacoes h3 {
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+
+    .projetos_item img {
+        width: 500px;
+    }
+
+    .projetos_item {
+        width: 300px;
+        padding: 10px;
+    }
+
+    .nome_projeto {
+        font-size: 1.7em;
+    }
+
+    .descricao_projeto {
+        font-size: 1.3em;
+    }
+
+    .contato > p {
+        width: 500px;
+        font-size: 1.3em;
+    }
+
+    .formulario label {
+        font-size: 1.5em;
+    }
+
+    .formulario input {
+        width: 500px;
+        font-size: 1.3em;
+    }
+
+    .formulario > div:nth-child(4) > p {
+        font-size: 1.5em;
+    }
+
+    textarea {
+        font-size: 1.3em;
+        outline: none;
+    }
+
+    button[type="submit"] {
+        font-size: 1.3em;
+        padding: 7px;
+    }
+
+    .texto_rodape {
+        padding: 7px;
+        font-size: 1.2em;
+    }
+
+    .projetos_item a:nth-child(4) {
+        font-size: 1.3em;
+    }
+
+    .projetos_item a:nth-child(5) {
+        font-size: 1.3em;
+    }
+
+}
+
+@media (min-width: 1300px) {
+
+    .menu_header {
+        display: block;
+    }
+
+    .titulo_contato ul {
+        gap: 15px;
+        font-size: .9em;
+    }
+
+    .titulo_contato a {
+        padding: 5px;
+        border-radius:  3px;
+        font-weight: normal;
+        transition: .7s;
+
+    }
+    .titulo_contato a:hover {
+        background-color: #2a7ae4;
+    }
+    .descricao h1 {
+        width: 700px;
+        font-size: 2em;
+    }
+
+    .descricao p {
+        font-size: 1.5em;
+    }
+
+    img {
+        margin-right: 100px;
+    }
+
+    .icones i {
+        font-size: 5em;
+    }
+
+    #hobbies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #hobbies > .icones {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #experiencia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projetos_item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projetos_item img {
+        width: 750px;
+    }
+
+    .botoes {
+        display: flex;
+        gap: 5px;
+    }
+
+    .formacoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .formacoes h3 {
+        font-weight: normal;
+    }
+
+    .contato  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
